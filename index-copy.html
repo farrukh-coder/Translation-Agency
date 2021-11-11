@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Бюро переводов</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/media.css"> -->
+</head>	
+<body>
+	<!-- Начало блока  Header -->
+	<header>
+		<div class="container">
+			<!-- Row используется как строка, и здесь она используется для логотипа, меню, телефона номера и кнопки позвонить -->
+			<div class="row pc">
+				<!-- Блок логотипа, я там оставил класс logo, который нигде не используется, если хочешь удали, если хочешь используй для адаптации -->
+				<div class="col-xl-2 logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<!-- Конец блока с логотипом -->
+
+				<!-- Блок меню -->
+				<div class="col-xl-6 col-lg-12 menu">
+					<nav class="navigation">
+						<a href="#">Главная</a>
+						<a href="#preimushestva">Преимущества</a>
+						<a href="#uslugi">Услуги</a>
+						<a href="#etapi">Этапы</a>
+						<a href="#otzivi">Отзывы</a>
+						<a href="#kontakti">Контакты</a>
+					</nav>
+				</div>
+				<!-- Конец блока меню -->
+
+				<!-- Блок номера телефона и города -->
+				<div class="col-xl-2 header-info">
+					<p>г. Уфа <br /> +7 (996) 107-187-4</p>
+				</div>
+				<!-- Конец блока с номером телефона и города -->
+
+				<!-- Блок кнопки позвнить -->
+				<div class="col-xl-2 header-call">
+					<button class="call-btn" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Заказать звонок</button>
+				</div>
+				<!-- Конец блока позвонить -->
+			</div>
+			<!-- Конец первой строки!  -->
+
+			<!-- Вторая строка! -->
+			<div class="row info-head">
+				<!-- Блок заголовка, и текстов -->
+				<div class="col-xl-11 head-title">
+					<h1>Переведём как для себя<br /><span class="gradient">за 3 часа</span></h1>
+					<img class="brauni" src="img/Rectangle6.png" alt="">
+					<img class="vector" src="img/Vector1.svg" alt="">
+					<p class="yellow-text sales">Скидка</p>
+					<p class="yellow-text sales" style="padding-top: 38px;">на первый заказ</p>
+					
+					<p class="yellow-text sales-data">10%</p>
+					<div class="mobile">
+					<div style="margin-top:88px;">
+					
+					<button class="services" style="margin-bottom:20px;height: 48px; width:276px;" href="#uslugi" onclick="parent.location='#uslugi'"><div style="width: unset;">Услуги</div></button>
+					<button class="services" style="margin-bottom:20px;height: 48px; width:276px;" href="#uslugi" onclick="parent.location='#uslugi'"><div style="width: unset;">Почему у нас</div></button>
+					<button class="transfer-btn" type="button" style="height: 48px; width:276px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Заказать перевод</button>
+					</div>
+					</div>
+					<div class="pc">
+					<p class="header-text">
+						<img src="img/header-text-1.png" alt="">  Работаем без выходных
+					</p>
+					<p class="header-text">
+						<img src="img/header-text-2.png" alt="">  Перед переводом изучим тематику
+					</p>
+					<p class="header-text">
+						<img src="img/header-text-3.png" alt="">  Добросовестно выполним работу
+					</p>
+					<p class="header-text">
+						<img src="img/header-text-4.png" alt="">  Дадим советы по улучшению текста
+					</p>
+					<p class="header-text">
+						<img src="img/header-text-5.png" alt=""> При необходимости доставим <br><span>заверенный оригинал по почте/курьером
+					</p>
+					</div>
+					<div class="mobile" style="background-color:rgba(66, 89, 123, 1); padding:50px 15px 0 15px;margin-left:-15px;margin-top:50px;">
+					<img src="img/vector-mobile.png" class="we-bubble" style="margin-right: unset;" alt="">
+					
+					<p style="color:white; font-size:20px; font-weight:700;margin-bottom:34px;">Mы:</p>
+					<div>
+					<p class="header-text" style="padding-left:unset;padding-right:8px;display:inline-block;">
+						<img src="img/ico-mob11.png" style="margin-right: unset;" alt="">  
+					</p>
+					
+					
+					<div style="display:inline-block;color:white; font-size:14px;font-weight:400;line-height:16px;">Работаем без выходных</div></div>
+					<div><p class="header-text" style="padding-left:unset;padding-right:8px;display:inline-block;">
+						<img src="img/ico-mob22.png" style="margin-right: unset;margin-top:-14px;" alt="">  
+					</p>
+					
+					
+					<div style="display:inline-block;color:white; font-size:14px;font-weight:400;line-height:16px;">Перед переводом подробно <br />изучим тематику</div></div>
+					<div>
+					<p class="header-text" style="padding-left:unset;padding-right:8px;display:inline-block;">
+						<img src="img/ico-mob33.png" alt="" style="margin-right: unset;margin-top:-16px;">  
+					</p>
+					
+					<div style="display:inline-block;color:white; font-size:14px;font-weight:400;line-height:16px;">Добросовестно<br /> выполним работу</div></div>
+					<div style="margin-bottom:5px;">
+					<p class="header-text" style="padding-left:unset;padding-right:8px;display:inline-block;">
+						<img src="img/ico-mob44.png" alt="" style="margin-right: unset;margin-top:-13px;"> 
+					</p>
+					
+					<div style="display:inline-block;color:white; font-size:14px;font-weight:400;line-height:16px;">Дадим советы <br />по улучшению текста</div></div>
+					<div>
+					<p class="header-text" style="padding-left:unset;padding-right:8px;display:inline-block;">
+						<img src="img/ico-mob55.png" alt="" style="margin-right: unset;margin-top:-28px;"> 
+					</p>
+					
+					<div style="display:inline-block;color:white; font-size:14px;font-weight:400;line-height:16px;margin-bottom:50px;">При необходимости доставим <br />заверенный оригинал по <br />почте/курьером</div>
+					</div></div>
+				</div>
+				<!-- Конец блока заголовков и текстов -->
+
+				<!-- Блок социальных сетей -->
+				<div class="pc col-xl-1 soc">
+					<a href="https://vk.com/id637355893" class="social">
+						<img src="img/vk.png" alt="">
+					</a>
+					<a href="https://t.me/Ciceron107" class="social">
+						<img src="img/telegram.png" alt="">
+					</a>
+					<a href="https://api.whatsapp.com/send/?phone=79961071874&text&app_absent=0" class="social">
+						<img src="img/whatsapp.png" alt="">
+					</a>
+				</div>
+				<!-- Конец блока социальных сетей -->
+			</div>
+
+			<!-- Строка с двумя последними кнопками в Header -->
+			<div class="pc row block-buttons">
+				<!-- Блок с двумя последними кнопками в Header -->
+				<div class="col-xl-12">
+					
+					<button class="transfer-btn" type="button"  data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Заказать перевод</button>
+					<button class="services" href="#uslugi" onclick="parent.location='#uslugi'"><div>Услуги</div></button>
+				</div>
+				<!-- Конец Блока с двумя последними кнопками -->
+			</div>
+			<!-- Конец строки с двумя последними кнопками -->
+
+			<!-- Начало блока "Наши преимущества" -->
+			
+		</div>
+
+	</header>
+	<!-- Конец ХЕДЕРА -->
+
+
+	<!-- Начало секции наши преимущества -->
+	
+	<div class="mobile-advantages mobile ">
+	<img src="img/Vector.png" class="bubble-adv" alt="">
+					
+	<p class="title-adv">Наши преимущества
+	</p>
+	<div class="section-adv">
+	<div class="img-adv">
+	<img src="img/clock.png" alt="">
+	</div>
+	<div class="text-block-adv">
+	<div class="subtitle-adv">Опыт работы с переводами<br/>10 лет</div>
+	<div class="text-adv">Вне зависимости: <br/> нужен Вам перевод одной <br/>страницы или целой книги, мы<br/> используем весь наш опыт,<br/> чтобы перевод получился<br/> максимально точным</div>
+	</div>
+	</div>
+
+	<div class="section-adv">
+	<div class="img-adv">
+	<img src="img/mail.png" alt="">
+	</div>
+	<div class="text-block-adv">
+	<div class="subtitle-adv">Строгая конфиденциальность</div>
+	<div class="text-adv">Для нас важна безопасность <br/>наших клиентов, <br/>поэтому мы гарантируем <br/>конфиденциальность<br/>предоставляемой <br/>нам информации</div>
+	</div>
+	</div>
+
+	<div class="section-adv">
+	<div class="img-adv">
+	<img src="img/communicate.png" alt="">
+	</div>
+	<div class="text-block-adv">
+	<div class="subtitle-adv">Персональный подход</div>
+	<div class="text-adv">Внимательно выслушаем и<br/> подберем соответствующее <br/>решение ваших проблем</div>
+	</div>
+	</div>
+
+	<div class="section-adv">
+	<div class="img-adv">
+	<img src="img/docs.png" alt="">
+	</div>
+	<div class="text-block-adv">
+	<div class="subtitle-adv">Добросовестная работа</div>
+	<div class="text-adv">Мы дорожим нашей репутацией, <br/>поэтому сделаем всю работу <br/>с полной отдачей</div>
+	</div>
+	</div>
+
+	<div class="section-adv">
+	<div class="img-adv">
+	<img src="img/idea.png" alt="">
+	</div>
+	<div class="text-block-adv">
+	<div class="subtitle-adv">Перевод текста <br/>от носителя языка</div>
+	<div class="text-adv">Переводами большинства <br/>языков, занимаются<br/> их носители</div>
+	</div>
+	</div>
+	<div class="under-adv">Мы понимаем, что Вы, наши клиенты, <br/>цените время и деньги, <br/>
+поэтому берем на себя всю рутинную <br/>работу и, в случае необходимости, <br/>предоставляем услуги <span>удаленного бизнес-помощника.</span> </div>
+<button class="transfer-btn button-adv" type="button" style="height: 48px; width:276px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Хочу перевод</button>
+					
+	</div>
+
+
+
+
+	<div class="mobile-price mobile ">
+					
+	<p class="title-price">Услуги и цены:
+	</p>
+	<div class="section-price">
+	<div class="img-price">
+	<img src="img/services-section/clock-2.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Срочный перевод</div>
+	<div class="text-price">Срочным переводам <br/>отдаётся высший приоритет<br/> и готовится вне очереди</div>
+	</div>
+	<div class="plus-price">+50-100% <br/>
+к стоимости заказа</div>
+	</div>
+
+	<div class="section-price">
+	<div class="img-price">
+	<img src="img/services-section/student.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Специальный перевод</div>
+	<div class="text-price">Включает в себя перевод <br/>текстов по технике,<br/> медицине, истории и других<br/> отраслей науки</div>
+	</div>
+<div class="plus-price">600 руб./стр.</div>
+	</div>
+
+	<div class="section-price">
+	<div class="img-price">
+	<img src="img/services-section/books.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Литературный перевод</div>
+	<div class="text-price">Перевод художественной, <br/>научно-популярной <br/>литературы, <br/>художественно-публицисти<br/>ческих, рекламных и иных <br/>текстов</div>
+	</div>
+<div class="plus-price">500 руб./стр.</div>
+	</div>
+
+	
+	<div class="section-price">
+	<div class="img-price">
+	<img src="img/services-section/docs.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Апостиль</div>
+	<div class="text-price">Необходим для получения <br/>юридической силы<br/> документов за границей</div>
+	</div>
+<div class="plus-price">4000 руб.</div>
+	</div>
+
+	<div class="section-price">
+	<div class="img-price">
+	<img src="img/services-section/papers.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Набор текста</div>
+	<div class="text-price">Перепечатка на компьютере<br/> текста, схем, таблиц с <br/>фотографий, рукописей, <br/>отсканированных<br/> материалов</div>
+	</div>
+<div class="plus-price">40 руб./стр.</div>
+	</div>
+
+	<div class="section-price">
+	<div class="img-price">
+	<img src="img/services-section/location.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Поиск информации</div>
+	<div class="text-price">Поиск и сверка <br/>информации со всех <br/>возможных источников, <br/>книг и материалов</div>
+	</div>
+<div class="plus-price">от 300 руб.</div>
+	</div>
+
+	
+	<div class="section-price">
+	<div class="img-price">
+	<img src="img/services-section/music.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Транскрибация</div>
+	<div class="text-price">Преобразование аудио- и <br/>видеоматериалов в текст</div>
+	</div>
+<div class="plus-price">50 руб./мин.</div>
+	</div>
+
+	
+	<div class="section-price">
+	<div class="img-price">
+	<img src="img/services-section/microphone.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Профессиональная озвучка</div>
+	<div class="text-price">Озвучка рекламы, <br/>автоответчиков, закадровое <br/>озвучивание видео и <br/>прочее</div>
+	</div>
+<div class="plus-price">350 руб./мин.</div>
+	</div>
+
+	
+	
+	<div class="under-price">ПЕРЕВОДИМЫЕ ЯЗЫКИ:<br/>
+- Башкирский<br/>
+- Татарский <br/>
+- Чувашский<br/>
+- Казахский <br/>
+- Узбекский<br/>
+- Киргизский<br/>
+- и другие тюркские языки</div>
+<button class="transfer-btn button-adv" type="button" style="height: 48px; width:276px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Заказать перевод</button>
+					
+	</div>
+
+
+
+
+
+
+	<section class="advantages" >
+		<!-- выравнивание по центру -->
+		<div class="container inside">
+
+			<!-- Row используются по назначению, как новые строки -->
+			<div class="row">
+				<div class="preimushestva col-xl-12" >
+					<h2 id="preimushestva">Наши преимущества</h2>
+				</div>
+			</div>
+
+			<!-- Строка с карточками -->
+			<div class="row cards">
+
+				<!-- Первая карточка -->
+				<div class="col-xl-4">
+					<div class="card">
+ 						<div class="card-body">
+    					<h5 class="card-title">Опыт работы с переводами 10 лет</h5>
+    					<p class="card-text">
+								Вне зависимости: нужен Вам перевод одной страницы или целой книги, мы используем весь наш опыт, чтобы перевод получился максимально точным
+							</p>	
+  					</div>
+  					<div>
+							<img src="img/clock.png" alt="...">
+						</div> 
+					</div>
+				</div>
+
+				<!-- Вторая карточка. -->
+				<div class="col-xl-4">
+					<div class="card">
+ 						<div class="card-body">
+    					<h5 class="card-title">Строгая конфиденциальность</h5>
+    					<p class="card-text">
+								Для нас важна безопасность наших клиентов, поэтому мы гарантируем конфиденциальность предоставляемой нам информации
+							</p>	
+  					</div>
+  					<div>
+							<img src="img/mail.png" alt="...">
+						</div> 
+					</div>
+				</div>
+
+				<!-- Третья карточка -->
+				<div class="col-xl-4">
+					<div class="card">
+ 						<div class="card-body">
+    					<h5 class="card-title">Персональный подход</h5>
+    					<p class="card-text">
+								Внимательно выслушаем и подберем соответствующее решение ваших проблем
+							</p>	
+  					</div>
+  					<div>
+							<img src="img/communicate.png" alt="...">
+						</div> 
+					</div>
+				</div>
+
+				<!-- Четвертая карточка -->
+				<div class="col-xl-4">
+					<div class="card">
+ 						<div class="card-body">
+    					<h5 class="card-title">Добросовестная работа</h5>
+    					<p class="card-text">
+								Мы дорожим нашей репутацией, поэтому сделаем всю работу с полной отдачей
+							</p>	
+  					</div>
+  					<div>
+							<img src="img/docs.png" alt="...">
+						</div> 
+					</div>
+				</div>
+
+				<!-- Пятая карточка -->
+				<div class="col-xl-4">
+					<div class="card">
+ 						<div class="card-body">
+    					<h5 class="card-title">Перевод текста от носителя языка</h5>
+    					<p class="card-text">
+								Переводами большинства языков занимаются их носители
+							</p>	
+  					</div>
+  					<div>
+							<img src="img/idea.png" alt="...">
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!-- Конец строки с карточками -->
+
+			<!-- Начало строки с текстом и кнопкой -->
+			<div class="row section-text-1">
+				<div class="col-xl-12">
+					<p>
+						Мы понимаем, что Вы, наши клиенты, цените время и деньги, <br> поэтому берем на себя всю рутинную работу и, в случае необходимости, предоставляем услуги <span class="color-text">удаленного бизнес-помощника.</span> 
+					</p>
+				</div>
+				<div class="col-xl-12 adventages-button">
+					<button class="transfer-btn" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Хочу перевод</button>
+				</div>
+			</div>
+			<!-- Конец строки с текстом и кнопкой -->
+		</div>
+	</section>
+	<!-- Конец секции -->
+
+	<!-- Начало секции "Услуги и цены перевода" -->
+	<section class="section-services pc"  id="uslugi">
+		<div class="container cards-2">
+			<!-- Это строка отвечающая за заголовок и карточки -->
+			<div class="row" >
+
+				<!-- заголовок -->
+				<div class="col-xl-12">
+					<h2 class="title-services">Услуги и цены перевода</h2>
+				</div>
+
+				<!-- Здесь начинаются карточки -->
+				<div class="col-xl-12 mycards">
+
+					<div class="card mycard">
+  					<div class="card-body mycard-body">
+    					<h5 class="card-title">Срочный перевод</h5>
+    					<p class="card-text">
+								Срочным переводам отдаётся высший приоритет и готовится вне очереди
+							</p>
+							<div>
+								<img src="img/services-section/clock-2.png" alt="">
+							</div>
+  					</div>
+					</div>
+
+					<div class="card mycard">
+  					<div class="card-body mycard-body">
+    					<h5 class="card-title">Специальный перевод</h5>
+    					<p class="card-text">
+								Включает в себя перевод текстов по технике, медицине, истории и других отраслей науки
+							</p>
+							<div>
+								<img src="img/services-section/student.png" alt="">
+							</div>
+  					</div>
+					</div>
+
+					<div class="card mycard">
+  					<div class="card-body mycard-body">
+    					<h5 class="card-title">Литературный перевод</h5>
+    					<p class="card-text" style="font-size: 14px;">
+								Перевод художественной, научно-популярной литературы, художественно-публицистических, рекламных и иных текстов
+						</p>
+						<div style="">
+							<img src="img/services-section/books.png" alt="">
+						</div>
+  					</div>
+					</div>
+
+					<div class="card mycard">
+  					<div class="card-body mycard-body">
+    					<h5 class="card-title">Апостиль</h5>
+    					<p class="card-text">
+								Необходим для получения юридической силы документов за границей
+						</p>
+						<div class="mycard-img">
+							<img src="img/services-section/docs.png" alt="">
+						</div>
+  					</div>
+					</div>
+
+				</div>
+				<!-- Верхний див закрывает первую строку карточек -->
+
+				<!-- Начинается вторая строка карточек -->
+				<div class="col-xl-12 mycards">
+
+					<div class="card mycard">
+  					<div class="card-body mycard-body">
+    					<h5 class="card-title">Набор текста</h5>
+    					<p class="card-text">
+								Перепечатка на компьютере текста, схем, таблиц с фотографий, рукописей, отсканированных материалов
+							</p>
+							<div>
+								<img src="img/services-section/papers.png" alt="">
+							</div>
+  					</div>
+					</div>
+
+					<div class="card mycard">
+  					<div class="card-body mycard-body">
+    					<h5 class="card-title">Поиск информации</h5>
+    					<p class="card-text">
+								Поиск и сверка информации со всех возможных источников, книг и материалов
+							</p>
+							<div>
+								<img src="img/services-section/location.png" alt="">
+							</div>
+  					</div>
+					</div>
+
+					<div class="card mycard">
+  					<div class="card-body mycard-body">
+    					<h5 class="card-title">Транскрибация</h5>
+    					<p class="card-text">
+								Преобразование аудио- и видеоматериалов в текст
+							</p>
+							<div>
+								<img src="img/services-section/music.png" alt="">
+							</div>
+  					</div>
+					</div>
+
+					<div class="card mycard">
+  					<div class="card-body mycard-body">
+    					<h5 class="card-title">Профессиональная озвучка</h5>
+    					<p class="card-text">
+								Озвучка рекламы, автоответчиков, закадровое озвучивание видео и прочее
+							</p>
+							<div class="mycard-img">
+								<img src="img/services-section/microphone.png" alt="">
+							</div>
+  					</div>
+					</div>
+
+				</div>
+				<!-- Верхний див закрывает вторую строку карточек -->
+			</div>			
+			<!-- Верхний див, закрытие класса row -->
+		</div>
+		<!-- Верхний див, закрытие класса контаинер -->
+
+		<!-- Языки и кнопка -->
+		<div class="container">
+
+			<div class="row section-services-end">
+				
+				<div class="col-xl-6 lang">
+					<div class="languages">
+						<p>
+							<span>Переводимые языки</span>
+							- Башкирский
+							- Татарский 
+							- Чувашский
+							- Казахский 
+							- Узбекский
+							- Киргизский
+							- и другие тюркские языки
+						</p>
+					</div>
+				</div>
+
+				<div class="col-xl-6 btn-services">
+					<button class="call-btn-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Заказать перевод</button>
+				</div>
+
+			</div>
+			<!-- Конец языков и кнопки -->
+
+		</div>
+	</section>
+	<!-- Конец секции -->
+
+
+	<div class="how-to-get mobile">
+	<div class="how-to-title">Как получить перевод?</div>	
+	<div class="">
+	<div class="img-get" style="margin-right:31px;">
+	<img src="img/section-perevod/I.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Вы отправляете <br/>заявку/звоните нам</div>
+	<div class="text-price">Связаться с нами можно любым <br/>удобным для Вас <br/>через сайт, по электронной <br/>почте, в WhatsApp, ВКонтакте,<br/> Телеграм. Все контакты будут <br/>внизу сайта :)</div>
+	</div>
+	</div>
+	
+	<button class="transfer-btn button-adv" type="button" style="height: 60px; padding-bottom: 7px;width:276px;margin-bottom:20px;line-height:19px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Не хочу читать, <br/>хочу перевод</button>
+
+	<div class="block-get">
+	<div class="img-get" style="margin-right:28px;">
+	<img src="img/section-perevod/II.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Мы анализируем и оцениваем <br/>текст</div>
+	<div class="text-price">Мы оцениваем сложность,<br/> объем текста, уточняем детали</div>
+	</div>
+</div>
+
+	<div class="block-get">
+	<div class="img-get" style="margin-right:17px;">
+	<img src="img/section-perevod/III.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Вы вносите предоплату</div>
+	<div class="text-price">Предоплата составляет 50% от<br/> стоимости заказа. Оплата <br/>производится на карту или на <br/>расчётный счет</div>
+	</div>
+	</div>
+
+	<div class="block-get">
+	<div class="img-get" style="margin-right:15px;">
+	<img src="img/section-perevod/IV.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Мы переводим текст</div>
+	<div class="text-price">Переводя текст, мы углубляемся <br/>в задачу, изучая сторонние<br/> материалы, редактируем, чтобы<br/> исключить все возможные <br/>ошибки. Поэтому наши <br/>переводы получаются <br/>достоверными, а клиенты <br/>становятся постоянными</div>
+	</div>
+	</div>
+
+	<div class="block-get">
+	<div class="img-get" style="margin-right:26px;">
+	<img src="img/section-perevod/V.png" alt="">
+	</div>
+	<div class="text-block-price">
+	<div class="subtitle-price">Вы получаете понятно<br/> оформленную и готовую<br/> работу</div>
+	<div class="text-price">После полного завершения<br/> работы,<br/> 
+получить её можно будет<br/> любым удобным способом:</div>
+	<div class="get-how-get">
+<div class="icons-get" style="display:inline-block;"><img src="img/try.png" style="margin-left: -4px;padding-top: 10px;" alt=""></div>
+<div class="text-icon-get" style="display:inline-block;font-size:14px;padding-top: 14px;vertical-align: top;line-height: 27px;">
+По электронной почте <br/>В мессенджере <br/>Курьером</div>
+</div>
+	</div>
+	</div>
+
+
+<img src="img/section-perevod/clip-971.png" style="width:250px;margin-bottom: -5px;" alt="">
+
+	</div>
+
+	<section class="info-perevod pc" id="etapi">
+		<div class="bg-perevod">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-xl-12">
+						<h2 class="info-title">
+							Как получить перевод?
+						</h2>
+					</div>
+
+				</div>
+
+
+				<div class="row">
+
+					<div class="col-xl-12 info-block">
+						<div class="img-num">
+							<img src="img/section-perevod/I.png" alt="">
+						</div>
+						<div class="info-text">
+							<h3>Вы отправляете заявку/звоните нам</h3>
+							<p>
+								Связаться с нами можно любым удобным  для Вас способом: через сайт, по электронной почте, в WhatsApp, ВКонтакте, Телеграм. Все контакты будут внизу сайта :)
+							</p>
+						</div>
+					</div>
+
+					<div class="col-xl-6">
+						<div class="col-xl-12">
+							<button class="btn-3" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Не хочу читать, хочу перевод!</button>
+						</div>
+						<div class="col-xl-12 img-info">
+							<img src="img/section-perevod/clip-971.png" alt="">
+						</div>
+					</div>
+					<div class="col-xl-6">
+
+						<div class="col-xl-12 info-block">
+							<div class="img-num">
+								<img src="img/section-perevod/II.png" alt="">
+							</div>
+							<div class="info-text">
+								<h3>Мы анализируем и оцениваем текст</h3>
+								<p>
+									Мы оцениваем сложность, объем текста, уточняем детали
+								</p>
+							</div>
+						</div>
+
+						<div class="col-xl-12 info-block">
+							<div class="img-num">
+								<img src="img/section-perevod/III.png" alt="">
+							</div>
+							<div class="info-text">
+								<h3>Вы вносите предоплату</h3>
+								<p>
+									Предоплата составляет 50% от стоимости заказа. Оплата производится на карту или на расчётный счет
+								</p>
+							</div>
+						</div>
+
+						<div class="col-xl-12 info-block">
+							<div class="img-num">
+								<img src="img/section-perevod/IV.png" alt="">
+							</div>
+							<div class="info-text">
+								<h3>Мы переводим текст</h3>
+								<p>
+									Переводя текст, мы углубляемся в задачу, изучая сторонние материалы, редактируем, чтобы исключить все возможные ошибки. Поэтому наши переводы получаются достоверными, а клиенты становятся постоянными
+								</p>
+							</div>
+						</div>
+
+						<div class="col-xl-12 info-block">
+							<div class="img-num">
+								<img src="img/section-perevod/V.png" alt="">
+							</div>
+							<div class="info-text">
+								<h3>Вы получаете понятно оформленную и готовую работу</h3>
+								<p>
+									После полного завершения работы, получить её можно будет любым удобным способом:
+									<p>
+										<img src="img/section-perevod/message.png" alt=""> По электронной почте
+									</p>
+									<p>
+										<img src="img/section-perevod/chat.png" alt=""> В мессенджере
+									</p>
+									<p>
+										<img src="img/section-perevod/kuryer.png" alt=""> Курьером
+									</p>
+								</p>
+							</div>
+						</div>
+
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<div class="testimony mobile">
+	<div class="testimony-title">Нас рекомендуют</div>
+	<div class="single-test">
+<div class="kartochka-head" style="padding-left:5px;">
+	<div class="img-test" style="margin-right: 7px;">
+		<img src="img/man.png" alt="">
+	</div>
+			<div class="kartochka-info">
+				<p style="font-size:14px; font-weight:700; color:rgba(254, 205, 74, 1);margin-top:10px;margin-bottom:5px;">Артем Васильев</p>
+				<p style="font-size:14px; font-weight:400;margin-top:unset;margin-bottom:3px;">Журналист</p>
+				<img src="img/Frame18.png" style="width:100%" alt="">
+			</div>
+	</div>
+<div class="test-text">Я очень ценю вашу помощь в моих бизнес-задачах! Cпасибо вам 
+за вашу отзывчивость и поддержку! Надеюсь, что в новом году у нас будет много интересных, полезных и важных проектов!</div>
+	</div>
+
+<div class="single-test">
+<div class="kartochka-head" style="padding-left:5px;">
+	<div class="img-test" style="margin-right: 7px;">
+		<img src="img/woman.png" alt="">
+	</div>
+			<div class="kartochka-info">
+				<p style="font-size:14px; font-weight:700; color:rgba(254, 205, 74, 1);margin-top:10px;margin-bottom:5px;">Вера Карьянова </p>
+				<p style="font-size:14px; font-weight:400;margin-top:unset;margin-bottom:3px;line-height:13px;">Владелец <br/>сети магазинов</p>
+				<img src="img/Frame18.png" style="width:100%" alt="">
+			</div>
+	</div>
+<div class="test-text" >Спасибо за озвучку, 
+всё понравилось, как надоест 
+и решим поменять – обратимся именно к вам.</div>
+	</div>
+	
+<div class="arrows">
+<div class="left-arrow" style="display:inline-block;width:49%;">
+<div class="arrow-bubble" style="margin-left: 48%;">
+<img src="img/Arrow1.png" alt="">
+</div></div>
+<div class="right-arrow" style="display:inline-block;width:49%;">
+<div class="arrow-bubble" style="margin-left: 10px;">
+<img src="img/Arrow2.png" alt="">
+</div>
+</div>
+</div>
+
+<div class="under-arrow">Ещё сомневаетесь?</div>
+<div class="under-under-arrow">Оставьте нам свой номер телефона <br/>
+и в течение 10 минут получите <br/>бесплатную консультацию </div>
+<button class="transfer-btn button-adv" type="button" style="height: 50px; padding-bottom: 7px;width:278px;margin-bottom:20px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Оставить номер</button>
+
+</div>
+
+
+
+	<section class="recommend pc" id="otzivi">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-xl-12">
+					<h2 class="title-services">Нас рекомендуют</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xl-12 kartochki">
+					<div class="col-xl-6 kartochka-1">
+
+						<div class="kartochka">
+							<div class="kartochka-head">
+								<div class="img-kartochka">
+									<img src="img/man.png" alt="">
+								</div>
+								<div class="kartochka-info">
+									<img src="img/info-1.png" alt="">
+								</div>
+							</div>
+							<div class="kartochka-body">
+								<p>
+									Я очень ценю вашу помощь в моих бизнес-задачах! Cпасибо вам за вашу отзывчивость и поддержку! Надеюсь, что в новом году у нас будет много интересных, полезных и важных проектов!
+								</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-xl-6">
+
+						<div class="kartochka">
+							<div class="kartochka-head">
+								<div class="img-kartochka">
+									<img src="img/woman.png" alt="">
+								</div>
+								<div class="kartochka-info">
+									<img src="img/info-2.png" alt="">
+								</div>
+							</div>
+							<div class="kartochka-body">
+								<p>
+									Спасибо за озвучку, всё понравилось, как надоест и решим поменять – обратимся именно к вам.
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-xl-12 strelki">
+					<div class="img-strelka col-xl-6">
+						<a href="#">
+							<img src="img/left.png" alt="">
+						</a>
+					</div>
+					<div class="img-strelka-2 col-xl-6">
+						<a href="#">
+							<img src="img/right.png" alt="">
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-xl-12">
+					<p class="question">
+						Хотите что-то уточнить или остались сомнения?
+					</p>
+					<p class="question-text">Оставьте нам свой номер телефона и в течение 10 минут получите бесплатную консультацию </p>
+				</div>
+				<div class="col-xl-12 knopkazvonka">
+					<button class="call-btn-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Оставить номер</button>
+				</div>
+			</div>
+
+			
+			
+
+		</div>
+	</section>
+
+	<div class="footer-mobile mobile">
+<div class="text-cont">ОГРНИП: 320028000041664<br/> ИНН: 025404895341<br/> <div style="margin-bottom:20px;"></div>
+Контакты<br/> <div style="margin-bottom:10px;"></div>Почта: Ciceron107@yandex.ru<br/><div style="margin-bottom:5px;"></div>Телефон: +7 (996) 107-187-4<br/><div style="margin-bottom:20px;"></div>
+Официальный сайт <br/>
+Бюро переводов "Цицерон"<div style="margin-bottom:39px;"></div>
+</div>
+<div class="text-right"><img src="img/tcic.png" style="margin-bottom:20px;" alt="">
+					<a href="https://vk.com/id637355893" class="social">
+						<img src="img/vk.png" alt="">
+					</a>
+					<a href="https://t.me/Ciceron107" class="social">
+						<img src="img/telegram.png" alt="">
+					</a>
+					<a href="https://api.whatsapp.com/send/?phone=79961071874&text&app_absent=0" class="social">
+						<img src="img/whatsapp.png" alt="">
+					</a>
+				</div>
+				<!-- Конец блока социальных сетей -->
+<div class="barkov-style" style="font-size:14px;text-align:center;margin-top: -30px;"><u>Разработчик сайта Barkov</u></div>
+</div>
+
+	<footer id="kontakti" class="pc">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-xl-5 foot-block">
+							<div class="scheta ">
+								<p>
+									ОГРНИП: 320028000041664 <br> ИНН: 025404895341
+								</p>
+							</div>
+							<div class="tsitseron">
+								<p class=" foot-text">
+									Официальный сайт Бюро переводов "Цицерон"
+								</p>
+							</div>
+						</div>
+
+						<div class="col-xl-2">
+							<img src="img/light-logo.png" alt="">
+						</div>
+
+						<div class="col-xl-3 foot-block">
+							<div class="kontakti">
+								<p>Контакты Почта: <br> Ciceron107@yandex.ru <br> Телефон: +7 (996) 107-187-4</p>
+								
+							</div>
+							<div class="barkov">
+								<p class=" foot-text"><a href="https://vk.com/barkovmark" style="color: lightgray">Разработчик сайта Barkov</a> </p>
+							</div>
+						</div>
+
+						<div class="col-xl-2 sociaal">
+							<a href="https://api.whatsapp.com/send/?phone=79961071874&text&app_absent=0" class="social-btn"><img src="img/whatsapp-white.png" alt=""></a>
+							<a href="https://vk.com/id637355893" class="social-btn"><img src="img/vk-white.png" alt=""></a>
+							<a href="https://t.me/Ciceron107" class="social-btn"><img src="img/tg-white.png" alt=""></a>
+						</div>
+
+
+
+					</div>
+				</div>
+	</footer>
+
+
+	
+<!-- <section class="header-mob">
+		<div class="menu-header-mob">
+			<div class="logo-mob">
+				<img src="img/logo.png" alt="">
+			</div>
+			<div class="info-mob">
+				<p>г. Уфа</p>
+				<p>+7 (996) 107-187-4</p>
+			</div>
+			<div class="menu-mob">
+				<a href="#">
+					<img src="img/menu.png" alt="">
+				</a>
+				
+			</div>
+		</div>
+
+		<div class="head-title-mob">
+			<div class="title-text-mob">
+				<h1>
+					Переведём как для себя <br> <span>за 3 часа</span>
+				</h1>
+			</div>
+			<div class="title-img-mob">
+				<img src="img/clip-reading-books-11.png" alt="">
+			</div>
+		</div>
+	</section>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modalka">
+      <div class="modal-header">
+  
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group modalnoye">
+            <h2>Нужен перевод?</h2>
+						<p>Оставьте номер и получите скидку 10%</p>
+            <input type="text" class="form-control" id="recipient-name" placeholder="Как вас зовут?">
+          </div>
+          <div class="form-group modalnoye">
+            <input type="text" class="form-control" id="recipient-name" placeholder="+7 (">
+						<p class="boldtext">Полный прайс-лист скачается автоматически</p>
+						<button class="call-btn-2 cb2">Позвоните мне</button>
+						<p class="minitext">Нажимая на кнопку «Позвонить мне», я даю согласие на обработку персональных данных</p>
+          </div>
+        </form>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Отправить сообщение</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

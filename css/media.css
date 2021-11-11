@@ -1,0 +1,80 @@
+@media (max-width: 720.98px){
+	header{
+		display: none;
+	}
+	section.advantages{
+		display: none;
+	}
+	section.section-services{
+		display: none;
+	}
+	section.info-perevod{
+		display: none;
+	}
+	section.recommend{
+		display: none;
+	}
+	footer{
+		display: none;
+	}
+
+	section.header-mob{
+		display: flex;
+		flex-direction: column;
+	}
+	.menu-header-mob{
+		display: flex;
+		padding: 15px;
+		justify-content: space-between;
+	}
+	.logo-mob{
+		padding-left: 10px;
+	}
+	.logo-mob img{
+		width: 80px;
+	}
+	.info-mob{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+		text-align: center;
+		font-size: 1.2em;
+		line-height: 10px;
+	}
+	.menu-mob{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-right: 10px;
+	}
+	.menu-mob img{
+		width: 60px;
+	}
+	
+	.head-title-mob{
+		display: flex;
+		overflow-x: hidden;
+		padding-left: 20px;
+		padding-right: 20px;
+		
+	}
+	.title-text-mob{
+		display: flex;
+		z-index: 1;
+		padding-top: 5%;
+	}
+	.title-text-mob h1{
+		font-size: 3.5em;
+		font-weight: 700;
+	}
+	.title-img-mob{
+		z-index: 2;
+		
+	}
+	.title-img-mob img{
+		
+	}
+
+}
